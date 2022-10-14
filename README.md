@@ -1,18 +1,8 @@
 # News Summary Challenge
 
-### Task
+This challenge was my first time "Thinking in React", creating a website in which users could scroll through and see the headlines of the day, as well as being able to click on them to get a summary of the story. Clicking on the headline / image again would then direct the user to the Guardian website where they could find more information on the story. The page was designed using ReactJS and received the news by making requests to the Guardian API. 
 
-You'll test-drive a single page application in React that send requests to the Guardian API to get Headline and Article data and to the Aylien API to summarise text. 
-
-### Serving your app
-
-You'll use React's toolchain to take care of serving your HTML, CSS and JavaScript files.  
-
-## User Stories
-
-Some of these stories will need decomposing if they seem too large.
-
-### Standard
+### User stories
 ```
 As a busy politician
 So I know what the big stories of the day are
@@ -39,19 +29,6 @@ So I can get a few more details about an important story
 I can see click a news article summary title which links to the original article
 ```
 
-```
-As a busy politician
-Just in case my laptop breaks
-I can read the site comfortably on my phone
-```
-
-```
-As a busy politician
-To make my news reading more fun
-I can see whizzy animations in the app
-```
-
-## Mockups
 
 ### Headlines page
 
