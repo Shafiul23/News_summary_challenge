@@ -29,12 +29,27 @@ So I can get a few more details about an important story
 I can see click a news article summary title which links to the original article
 ```
 
+### Installation
 
-### Headlines page
+* Clone repo to local machine
+* Point terminal to the same folder that package.json is located in and use `npm i`
+* Once all packaged are installed, use `npm start`
+
+### Usage
+
+![Headlines Page](images/headlines.png?raw=true)
+Here we can see the main headlines page, where react pulls the latest news from the Guardian API.  <br/>
+![Article Page](images/article.png?raw=true)
+Once you click on a headline, more information about the article is given below the image. <br/>
+![Guardian Page](images/redirect.png?raw=true)
+If the headline is clicked once more, the user is redirected to the Guardian page for more information. <br/>
+
+
+### Headlines page wireframe
 
 ![Headlines page mockup](/images/news-summary-project-headlines-page-mockup.png)
 
-### Article summary page
+### Article summary page wireframe
 
 ![Article page mockup](/images/news-summary-project-article-page-mockup.png)
 
@@ -89,34 +104,3 @@ curl "https://api.aylien.com/api/v1/summarize?url=http://worrydream.com/MediaFor
 * [Hurl](https://www.hurl.it/), a web interface for sending HTTP requests
 
 ---
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
